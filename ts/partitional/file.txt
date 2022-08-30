@@ -1,0 +1,42 @@
+\subsubsection*{Partitional Clustering Using Dtw Barycenter Averaging} 
+\includegraphics[width=14cm]{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Dtw Barycenter Averaging/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Dtw Barycenter Averaging/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Partitional Clustering Using Mean} 
+\includegraphics[width=14cm]{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Mean/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Mean/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Partitional Clustering Using Median} 
+\includegraphics[width=14cm]{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Median/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Median/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Partitional Clustering Using Partition Around Medoids} 
+\includegraphics[width=14cm]{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Partition Around Medoids/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Partition Around Medoids/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Partitional Clustering Using Soft-Dtw Centroids} 
+\includegraphics[width=14cm]{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Soft-Dtw Centroids/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Soft-Dtw Centroids/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Partitional Clustering Using Shape Averaging} 
+\includegraphics[width=14cm]{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Shape Averaging/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/partitional/Time Series Partitional Clustering Using Shape Averaging/cvindf.csv"}
+\vspace{0.05in} 
+

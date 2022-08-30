@@ -1,0 +1,8 @@
+Partitioning Around Medoids Using Chebyshev Distance, 0.524, 1.077
+Partitioning Around Medoids Using Cosine Distance, 0.558, 0.925
+Partitioning Around Medoids Using Canberra Distance, 0.551, 0.994
+Partitioning Around Medoids Using Pearson_correlation Distance, 0.426, 1.366
+Partitioning Around Medoids Using Mahalanobis Distance, 0.02, 3.342
+Partitioning Around Medoids Using Manhattan Distance, 0.555, 0.973
+Partitioning Around Medoids Using Euclidean Distance, 0.568, 0.92
+Partitioning Around Medoids Using Braycurtis Distance, 0.573, 0.885

@@ -1,0 +1,12 @@
+synthetic_control <- read_table2("~/Downloads/Work/Thesis/synthetic_control.data", col_names = FALSE)
+clusters <- hclust(dist(synthetic_control,method = "euclidean"), method = 'median')
+plot(clusters)
+clusterCut <- cutree(clusters, 6)
+plot(clusterCut)
+df1<-mutate(synthetic_control,clusterCut)
+ggplot(df1,aes(x=clusterCut))+geom_bar()+labs(x="Predicted Cluster",title = "Hierarchial Clustering Average Linkage using Manhattan Distance")
+clustersnum<-1:6
+real<-rep(clustersnum, each=100)
+sink("Hierarchial Clustering Average Linkage using Manhattan Distance.txt")
+confusionMatrix(as.factor(df1$clusterCut),as.factor(real))
+sink()

@@ -1,0 +1,25 @@
+Method,ARI,VI
+Hierarchical Clustering Single Linkage Using Euclidean Distance, 0.645, 0.563
+Hierarchical Clustering Ward.d Linkage Using Manhattan Distance, 0.63, 0.72
+Hierarchical Clustering Average Linkage Using Manhattan Distance, 0.617, 0.642
+Hierarchical Clustering Ward.d2 Linkage Using Manhattan Distance, 0.61, 0.767
+Hierarchical Clustering Ward.d Linkage Using Euclidean Distance, 0.607, 0.772
+Hierarchical Clustering Ward.d2 Linkage Using Euclidean Distance, 0.607, 0.772
+Hierarchical Clustering Mcquitty Linkage Using Euclidean Distance, 0.581, 0.786
+Hierarchical Clustering Complete Linkage Using Maximum Distance, 0.569, 0.853
+Hierarchical Clustering Mcquitty Linkage Using Maximum Distance, 0.564, 0.84
+Hierarchical Clustering Average Linkage Using Euclidean Distance, 0.564, 0.82
+Hierarchical Clustering Average Linkage Using Maximum Distance, 0.557, 0.798
+Hierarchical Clustering Complete Linkage Using Manhattan Distance, 0.544, 0.965
+Hierarchical Clustering Ward.d2 Linkage Using Maximum Distance, 0.537, 1.045
+Hierarchical Clustering Complete Linkage Using Euclidean Distance, 0.537, 0.947
+Hierarchical Clustering Centroid Linkage Using Euclidean Distance, 0.525, 0.887
+Hierarchical Clustering Ward.d Linkage Using Maximum Distance, 0.523, 1.074
+Hierarchical Clustering Centroid Linkage Using Manhattan Distance, 0.523, 0.903
+Hierarchical Clustering Mcquitty Linkage Using Manhattan Distance, 0.471, 1.128
+Hierarchical Clustering Median Linkage Using Manhattan Distance, 0.429, 0.933
+Hierarchical Clustering Median Linkage Using Euclidean Distance, 0.411, 1.043
+Hierarchical Clustering Median Linkage Using Maximum Distance, 0.394, 1.025
+Hierarchical Clustering Single Linkage Using Manhattan Distance, 0.107, 1.505
+Hierarchical Clustering Single Linkage Using Maximum Distance, 0.007, 1.84
+Hierarchical Clustering Centroid Linkage Using Maximum Distance,   0, 1.823

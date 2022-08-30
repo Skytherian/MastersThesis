@@ -1,0 +1,28 @@
+\subsubsection*{Hierarchical Clustering Using Dtw} 
+\includegraphics[width=16cm,height=12cm,angle=90]{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Dtw/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Dtw/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Hierarchical Clustering Using Dtw With L2 Norm} 
+\includegraphics[width=16cm,height=12cm,angle=90]{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Dtw With L2 Norm/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Dtw With L2 Norm/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Hierarchical Clustering Using Shape-Based Distance} 
+\includegraphics[width=16cm,height=12cm,angle=90]{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Shape-Based Distance/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Shape-Based Distance/cvindf.csv"}
+\vspace{0.05in} 
+
+\subsubsection*{Hierarchical Clustering Using Soft-Dtw} 
+\includegraphics[width=16cm,height=12cm,angle=90]{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Soft-Dtw/pc.png"}
+\vspace*{0.2in}\\ 
+\hspace*{6cm} 
+\csvautotabular{"/home/scyther/Documents/cluster/ts/hierarchical/Time Series Hierarchical Clustering Using Soft-Dtw/cvindf.csv"}
+\vspace{0.05in} 
+
