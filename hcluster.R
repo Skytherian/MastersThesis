@@ -1,12 +1,19 @@
   setwd("/home/scyther/Documents/clustergi/Hierarchical")
   distm<-c("euclidean", "maximum", "manhattan")
+  real<-rep(1:6,each=100)
   hclustm<-c("ward.D", "ward.D2", "single", "complete","average","mcquitty","median","centroid")
   #system(paste0("mkdir -p ","\"",str_to_title(paste("Hierarchical Clustering",hclustm[1],"Linkage using",distm[1],"distance")),"\""))
-  for( i in distm)
-  {
-    for (j in hclustm)
+  library(doParallel)
+  cl <- makeCluster(6,type="FORK")
+  registerDoParallel(cl)#not to overload your computer
+  foreach(i=distm,.combine='rbind') %dopar%
+  { 
+    foreach (j=hclustm,.combine = 'rbind')%do%
     {
-      
+      library(clevr)
+      library(aricode)
+      library(ggplot2)
+      library(dplyr)
       system(paste0("mkdir -p ","\"",str_to_title(paste("Hierarchical Clustering",j,"Linkage using",i,"distance")),"\""))
       setwd(paste0("./",str_to_title(paste("Hierarchical Clustering",j,"Linkage using",i,"distance"))))
       clusters <- hclust(dist(synthetic_control,method = i), method = j)
