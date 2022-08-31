@@ -6,9 +6,9 @@
   library(doParallel)
   cl <- makeCluster(6,type="FORK")
   registerDoParallel(cl)#not to overload your computer
-  foreach(i=distm,.combine='rbind') %dopar%
+  foreach(i=distm,.combine='rbind') %do%
   { 
-    foreach (j=hclustm,.combine = 'rbind')%do%
+    foreach (j=hclustm,.combine = 'rbind')%dopar%
     {
       library(clevr)
       library(aricode)
