@@ -1,4 +1,4 @@
-  setwd("/home/scyther/Documents/clustergi/new")
+  setwd("/home/scyther/Documents/clustergi/Hierarchical")
   distm<-c("euclidean", "maximum", "manhattan")
   hclustm<-c("ward.D", "ward.D2", "single", "complete","average","mcquitty","median","centroid")
   #system(paste0("mkdir -p ","\"",str_to_title(paste("Hierarchical Clustering",hclustm[1],"Linkage using",distm[1],"distance")),"\""))
