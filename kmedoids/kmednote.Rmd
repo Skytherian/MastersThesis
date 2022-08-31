@@ -1,0 +1,42 @@
+---
+title: "Clustering Using K-Medoids"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+
+```{r}
+library(ClusterR)
+library(clevr)
+library(aricode)
+library(ggplot2)
+library(dplyr)
+real<-rep(1:6,each=100)
+```
+Since the number of clusters is 6 with 100 observations of each
+
+```{r}
+
+
+distm<-c("euclidean","manhattan","chebyshev","canberra","braycurtis","pearson_correlation","mahalanobis","cosine")
+for( i in distm)
+{   set.seed(500)
+  clusters <-Cluster_Medoids(synthetic_control,clusters=6,distance_metric = i,threads = 4,swap_phase = TRUE,seed = 500)
+    ari<-ARI(as.factor(clusters$clusters),as.factor(real))
+    vi<-variation_info(as.factor(clusters$clusters),as.factor(real))
+    m<-t(as.matrix(c(round(ari,3),round(vi,3))))
+    colnames(m)<-c("ARI","VI")
+
+    cat("Partitioning around Medoids using",i,"distance","\n")
+    #cat(prmatrix(m,rowlab = rep_len("", ncol(m))))
+    print(m)
+    cat("\n")
+    df1<-mutate(synthetic_control,clusters$clusters)
+    print(ggplot(df1,aes(x=clusters$clusters))+geom_bar()+labs(x="Predicted Cluster",title=str_to_title(paste("Partitioning around Medoids using",i,"distance")))
+)
+  }
+
+```
+
+
