@@ -1,7 +1,11 @@
 setwd("/home/scyther/Documents/clustergi/kmedoids")
 distm<-c("euclidean","manhattan","chebyshev","canberra","braycurtis","pearson_correlation","mahalanobis","cosine")
 #hclustm<-c("ward.D", "ward.D2", "single", "complete","average","mcquitty","median","centroid")
-
+library(ClusterR)
+library(aricode)
+library(cluster)
+library(clevr)
+library(dplyr)
 #system(paste0("mkdir -p ","\"",str_to_title(paste("Hierarchial Clustering",hclustm[1],"Linkage using",distm[1],"distance")),"\""))
 for( i in distm)
 {   set.seed(500)
